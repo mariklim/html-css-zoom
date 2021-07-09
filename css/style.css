@@ -15,6 +15,11 @@ body{
     background-color: #1a1a1a;
 }
 
+.container.big{
+    margin: auto;
+    width:80%;
+}
+
 /* Header */
 header{
     padding: 10px;
@@ -40,4 +45,36 @@ padding: 3px;
 
 .recording-state p img{
     width:20px;
+}
+
+/* main */
+.ID-photo{
+   max-width: 20%;
+   position: relative;
+   margin: 5px;
+}
+
+.ID-photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mic{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    
+}
+.name{
+    padding: 2px 7px;
+    background-color: rgba(02,02,02,0.5);
+    border-radius: 5px;
+}
+
+.name i{
+    color: tomato;
+}
+
+/* section Flexbox Id photos  */
+.container.big.user-photos{
+    display: flex;
 }
