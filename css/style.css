@@ -5,3 +5,39 @@
     box-sizing: border-box;
 }
 
+/* Common */
+body{
+    color: white;
+}
+/* Containers */
+.container.full-screen{
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+
+/* Header */
+header{
+    padding: 10px;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.top-row p{
+    display: inline-block;
+    background-color: #101010;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+.recording-state img{
+width: 25px; 
+vertical-align: middle;
+background-color: #101010;
+padding: 3px;
+}
+
+.recording-state p img{
+    width:20px;
+}
