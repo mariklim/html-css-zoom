@@ -7,13 +7,14 @@
 
 /* Common */
 body{
-    color: white;
+    color: #9e9e9e;
 }
 /* Containers */
 .container.full-screen{
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     background-color: #1a1a1a;
+    position: relative;
 }
 
 .container.big{
@@ -47,8 +48,18 @@ padding: 3px;
 .recording-state p img{
     width:20px;
 }
+.view-type-bnt{
+    font-size: 15px;
+}
+.view-type-bnt i{
+    font-size: 10px;
+}
 
 /* main */
+main{
+    display: flex;
+    align-items: center;
+}
 .ID-photo{
    width:calc(100% / 5);
    position: relative;
@@ -70,6 +81,7 @@ padding: 3px;
     padding: 2px 7px;
     background-color: rgba(02,02,02,0.5);
     border-radius: 5px;
+    color:white
 }
 
 .name i{
@@ -80,4 +92,25 @@ padding: 3px;
 .container.big.user-photos{
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Angle-left */
+ .Angle-left{
+    width: 50px;
+    height: 70px;
+    background-image: linear-gradient(#1c1c1b, black);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Angle-left p{
+   font-size: 11px;
+   margin-top: 2px;
+   color: #7e7e7e;
+} 
+
+.Angle-left i{
+    padding-top: 15px;
+    color: #2db7ff;
+    font-size: 40px;
 }
