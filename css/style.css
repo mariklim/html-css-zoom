@@ -12,12 +12,13 @@ body{
 /* Containers */
 .container.full-screen{
     height: 100vh;
+    overflow-y: scroll;
     background-color: #1a1a1a;
 }
 
 .container.big{
     margin: auto;
-    width:80%;
+    max-width: 1300px;
 }
 
 /* Header */
@@ -49,9 +50,10 @@ padding: 3px;
 
 /* main */
 .ID-photo{
-   max-width: 20%;
+   width:calc(100% / 5);
    position: relative;
-   margin: 5px;
+   padding: 1px 3px;
+
 }
 
 .ID-photo img{
@@ -77,4 +79,5 @@ padding: 3px;
 /* section Flexbox Id photos  */
 .container.big.user-photos{
     display: flex;
+    flex-wrap: wrap;
 }
