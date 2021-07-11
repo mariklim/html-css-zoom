@@ -49,7 +49,7 @@ padding: 3px;
     width:20px;
 }
 .view-type-bnt{
-    font-size: 15px;
+    font-size: 13px;
 }
 .view-type-bnt i{
     font-size: 10px;
@@ -60,11 +60,37 @@ main{
     display: flex;
     align-items: center;
 }
+
+/* Angle-left */
+.Angle-left{
+    width: 50px;
+    height: 70px;
+    background-image: linear-gradient(#1c1c1b, black);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Angle-left p{
+   font-size: 11px;
+   margin-top: 2px;
+   color: #7e7e7e;
+} 
+
+.Angle-left i{
+    padding-top: 15px;
+    color: #2db7ff;
+    font-size: 40px;
+}
+
+/* section Flexbox Id photos  */
+.container.big.user-photos{
+    display: flex;
+    flex-wrap: wrap;
+}
 .ID-photo{
    width:calc(100% / 5);
    position: relative;
    padding: 1px 3px;
-
 }
 
 .ID-photo img{
@@ -88,29 +114,39 @@ main{
     color: tomato;
 }
 
-/* section Flexbox Id photos  */
-.container.big.user-photos{
+/*footer*/
+footer p, .btn-end, sup{
+    font-size: 12px;
+}
+footer i{
+    font-size: 14px;
+}
+/* bottom-row call management and info  */
+.bottom-row{
     display: flex;
-    flex-wrap: wrap;
-}
-
-/* Angle-left */
- .Angle-left{
-    width: 50px;
-    height: 70px;
-    background-image: linear-gradient(#1c1c1b, black);
-    border: 1px solid black;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    background-color: #202224;
     text-align: center;
+    padding: 0px 20px;
 }
 
-.Angle-left p{
-   font-size: 11px;
-   margin-top: 2px;
-   color: #7e7e7e;
-} 
+.Audio, .Video,.security, .users,
+.chat, .share-screen, .pause-stop-recording,
+.Reactions{
+    display: inline-block;
+    margin: 0 15px;
+}
 
-.Angle-left i{
-    padding-top: 15px;
-    color: #2db7ff;
-    font-size: 40px;
+.Angle i {
+    font-size:10px ;
+}
+
+.btn-end{
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 3px 17px;
+    border-radius: 5px;
 }
